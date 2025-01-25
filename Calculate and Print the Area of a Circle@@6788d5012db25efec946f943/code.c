@@ -4,6 +4,6 @@ int main(){
     int area;
     scanf("%d", radius);
     area = radius * radius;
-    printf("Area: %d", area);
+    printf("Area: %d\n", area);
     return 0;
 }
