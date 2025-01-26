@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int i;
-    if(i%2==0){
+    int number;
+    if(number%2==0){
         printf("Even");
     }
     else{
