@@ -10,7 +10,7 @@ int main(){
         printf("Lowercase");
     }
     else{
-        printf("Not applicable")
+        printf("Not applicable");
     }
     return 0;
 }
