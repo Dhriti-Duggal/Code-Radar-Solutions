@@ -9,5 +9,8 @@ int main(){
     else if(islower(i)){
         printf("Lowercase");
     }
+    else{
+        printf("Not applicable")
+    }
     return 0;
 }
