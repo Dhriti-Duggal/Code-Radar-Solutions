@@ -2,13 +2,7 @@
 
 int main(){
     int i;
-    if(i%5==0){
-        printf("Not divisible");
-    }
-    else if(i%11==0){
-        printf("Not divisible");
-    }
-    else if(i%5==0 && i%11==0){
+    if(i%5==0 && i%11==0){
         printf("Divisible");
     }
     else{
