@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int cost price;
-    int selling price;
-    scanf("%d %d", &cost price, &selling price );
-    if(selling price > cost price){
+    int cost_price;
+    int selling_price;
+    scanf("%d %d", &cost_price, &selling_price );
+    if(selling_price > cost_price){
         printf("Profit");
     }
-    else if(cost price> selling price){
+    else if(cost_price> selling_price){
         printf("Loss");
     }
     return 0;
