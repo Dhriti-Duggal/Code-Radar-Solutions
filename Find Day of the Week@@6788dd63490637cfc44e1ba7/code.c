@@ -16,7 +16,7 @@ int main() {
         break;
         case 6: printf("Saturday");
         break;
-        case 7: printf("Sunday");
+        default 7: printf("Sunday");
         break;
     }
     return 0;
