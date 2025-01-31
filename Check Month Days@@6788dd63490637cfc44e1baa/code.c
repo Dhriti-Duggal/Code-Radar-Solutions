@@ -3,7 +3,7 @@
 int main() {
     int month;
     scanf("%d", &month);
-    switch(month);
+    switch(month){
     case 1: 
     case 3:
     case 5:
@@ -21,6 +21,6 @@ int main() {
     printf("30");
     break;
     default: printf("Invalif month");
-    
+    }
     return 0;
 }
