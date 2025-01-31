@@ -2,6 +2,7 @@
 
 int main() {
     char light;
+    scanf("%c", &light);
     switch(light){
         case 'R': printf("Stop");
         break;
