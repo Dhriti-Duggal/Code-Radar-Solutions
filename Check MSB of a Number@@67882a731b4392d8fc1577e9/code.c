@@ -1,9 +1,10 @@
 #include <stdio.h>
-
+# define BITS sizeof(int)*8
 int main() {
-    int a;
+    int a, msb;
     scanf("%d", &a);
-    if(a|1)
+    msb = 1<< (BITS-1);
+    if(a & msb)
     printf("Set");
     else 
     printf("Not Set");
