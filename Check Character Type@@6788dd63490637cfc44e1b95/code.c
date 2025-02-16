@@ -2,9 +2,6 @@
 
 int main() {
     char ch;
-
-    // Taking input from user
-    printf("Enter a character: ");
     scanf("%c", &ch);
 
     // Check if the character is a digit
@@ -19,7 +16,7 @@ int main() {
             printf("Vowel");
         }
         else {
-            printf("The character '%c' is a Consonant.\n", ch);
+            printf("Consonant");
         }
     }
     // If not a digit or an alphabet, it's a special character
