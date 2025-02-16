@@ -11,6 +11,6 @@ int main() {
         case '/': result = a/b;
         default: printf("Error");
     }
-    printf(result);
+    printf("lf", result);
     return 0;
 }
