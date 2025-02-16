@@ -16,6 +16,6 @@ int main() {
         default: printf("Error");
         break;
     }
-    printf("lf", result);
+    printf("%lf", result);
     return 0;
 }
