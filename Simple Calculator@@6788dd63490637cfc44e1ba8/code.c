@@ -11,8 +11,9 @@ int main() {
         break;
         case '*': result = a*b;
         break;
-        case '/': if(b==0){
-            printf("error")
+        case '/': 
+            if(b==0){
+            printf("error");
             return 1;
         }
         result = a/b;
