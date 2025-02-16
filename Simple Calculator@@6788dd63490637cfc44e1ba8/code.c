@@ -5,10 +5,14 @@ int main() {
     char op;
     scanf("%lf %lf %c", &a, &b, &op);
     switch(op){
-        case '+': result = a+b;
+        case '+': result = a+b; 
+        break;
         case '-': reuslt = a-b;
+        break;
         case '*': result = a*b;
+        break;
         case '/': result = a/b;
+        break;
         default: printf("Error");
     }
     printf("lf", result);
