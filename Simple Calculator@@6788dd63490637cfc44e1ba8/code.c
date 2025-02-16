@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    double a , b, result;
+    int a , b, result;
     char op;
-    scanf("%lf %lf %c", &a, &b, &op);
+    scanf("%d %d %c", &a, &b, &op);
     switch(op){
         case '+': result = a+b; 
         break;
@@ -11,11 +11,15 @@ int main() {
         break;
         case '*': result = a*b;
         break;
-        case '/': result = a/b;
+        case '/': if(b==0){
+            printf("error")
+        }else{
+            result = a/b;
+        }
         break;
         default: printf("Error");
         break;
     }
-    printf("%lf", result);
+    printf("%d", result);
     return 0;
 }
