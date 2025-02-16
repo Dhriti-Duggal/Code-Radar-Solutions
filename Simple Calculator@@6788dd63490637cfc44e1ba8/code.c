@@ -9,6 +9,7 @@ int main() {
         case '-': reuslt = a-b;
         case '*': result = a*b;
         case '/': result = a/b;
+        default: 'Error';
     }
     return 0;
 }
