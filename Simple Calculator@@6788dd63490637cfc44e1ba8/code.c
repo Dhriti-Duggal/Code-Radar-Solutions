@@ -14,6 +14,7 @@ int main() {
         case '/': result = a/b;
         break;
         default: printf("Error");
+        break;
     }
     printf("lf", result);
     return 0;
