@@ -13,6 +13,7 @@ int main() {
         break;
         case '/': if(b==0){
             printf("error")
+            return 1;
         }else{
             result = a/b;
         }
