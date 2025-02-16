@@ -7,7 +7,7 @@ int main() {
     switch(op){
         case '+': result = a+b; 
         break;
-        case '-': reuslt = a-b;
+        case '-': result = a-b;
         break;
         case '*': result = a*b;
         break;
