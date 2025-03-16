@@ -1,7 +1,5 @@
 #include <stdio.h>
-void bubbleSort(arr,n){
-    
-}
+
 int main(){
     int n;
     scanf("%d", &n);
